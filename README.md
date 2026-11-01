@@ -20,3 +20,7 @@ index.html   css/site.css   js/site.js   img/   og.jpg   sitemap.xml   robots.tx
 
 ## Placeholders a reemplazar
 - Dirección, horarios y número de WhatsApp (`5491100000000` en `js/site.js` e `index.html`), marcados en el sitio como `placeholder`.
+
+## Performance
+- Fuentes self-hosted (woff2, subset latin) con `preload`: sin dependencias de terceros en el render.
+- Imágenes WebP con `srcset`/`sizes`, `width`/`height` explícitos (CLS ≈ 0) y `fetchpriority` en la imagen principal.
