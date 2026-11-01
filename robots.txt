@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://juancjose.github.io/santa-carne-pro/sitemap.xml
